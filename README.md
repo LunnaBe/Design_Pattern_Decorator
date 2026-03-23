@@ -58,3 +58,6 @@ Funciona como um wrapper que envolve o objeto ou função original, permitindo e
 
 ## Justificativa da Escolha --
 Inicialmente me interessei por esse padrão, porque o nome me chamou a atenção, pensei que se tratava de um padrão de “Decoração no sentido estético, com isso, baseando-se na pesquisa que me aprofundava, percebi que ele foge desse padrão e decidi conhecer melhor sobre esse padrão do Design Patterns.
+
+## Implementação do Decorator no Projeto --
+O Decorator permite adicionar novas funcionalidades, comportamentos ou responsabilidades a um objeto individualmente, em tempo de execução, sem afetar o comportamento de outros objetos da mesma classe.
