@@ -39,7 +39,13 @@ Funciona como um wrapper que envolve o objeto ou função original, permitindo e
 * **Equipment (O Decorator Abstrato)** — Uma capa mágica invisível que tem exatamente o mesmo formato do personagem(ICharacter) e contém um personagem (+decoratedCharacter). Ela tem um ícone misto de espada e escudo, indicando que seu propósito é modificar esses atributos. Ela não adiciona comportamento sozinha, mas define a estrutura para os decoradores concretos.
 
 * **FireSword e MagicArmor (Os Decoratores Concretos)** — Eles são os equipamentos que aplicam os decoradores. Eles estendem Equipment e têm ícones específicos, uma FireSword (Espada de Fogo) que fica no lugar do atacar(), que ao invés de apenas realizar um ataque básico, ela também realiza um ataque extra de fogo e uma MagicArmor (Armadura Mágica), que fica no lugar do defender(), que quando realiza o bloqueio básico ele ativa uma barreira mágica de defesa que aumenta a resistência.
-  
+
+### Figura 2 - Representação do padrão Decorator em uma analogia com o mundo real
+
+<img width="900" height="450" alt="decorator-comic-1-1 5x" src="https://github.com/user-attachments/assets/d6e1c247-3437-4a66-a8fc-7e68d0c5013d" />
+
+### Fonte: Site Refactoring.guru
+
 ## Resolução de Problemas --
 * **Explosão de subclasses:** Evita a criação de dezenas de classes para combinar funcionalidades diferentes.
 
