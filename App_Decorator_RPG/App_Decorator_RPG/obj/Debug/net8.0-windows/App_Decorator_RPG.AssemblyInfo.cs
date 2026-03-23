@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("App_Decorator_RPG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f968e18799cb9202aab5f0d121118acd420bbdad")]
 [assembly: System.Reflection.AssemblyProductAttribute("App_Decorator_RPG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("App_Decorator_RPG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
