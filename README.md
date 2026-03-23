@@ -70,3 +70,36 @@ O Decorator permite adicionar novas funcionalidades, comportamentos ou responsab
 * **Decorator vs Composite:** Decorators são versões simplificadas do Composite, focados em adicionar comportamento, não em agrupar.
 
 * **Decorator (Python) vs Anotações (Java):** Decorators são funções/classes executáveis em tempo de execução. Anotações são metadados que dependem de componentes externos para funcionar.
+
+## Vantagens e Desvantagens --
+### Vantagens:
+
+* **Flexibilidade e Composição:** Permite estender o comportamento de um objeto em tempo de execução (runtime), adicionando ou removendo funcionalidades sem modificar a classe base.
+
+* **Melhoria da Modularidade e Organização:** Facilita a separação de preocupações, dividindo comportamentos monolíticos em classes menores e focadas.
+
+* **Reutilização de Código:** Funcionalidades transversais, como logs, autenticação, cache ou validação, podem ser encapsuladas em um decorador e aplicadas a diversas funções ou métodos.
+
+* **Evita a Explosão de Subclasses:** Em vez de criar subclasses para cada combinação de comportamento usa-se a composição, empilhando decoradores.
+
+* **Princípio Aberto/Fechado:** O código original permanece fechado para modificação, mas aberto para novas funcionalidades através dos decoradores.
+
+### Desvantagens:
+
+* **Complexidade no Rastreamento:** Com múltiplos decorators em cascata, torna-se difícil entender a ordem de execução e rastrear o fluxo do código.
+
+* **Dificuldade de Depuração:** Como os decorators envolvem objetos em camadas, depurar erros torna-se desafiador, pois o comportamento observado não corresponde diretamente ao código original.
+
+* **Aumento de Pequenos Objetos:** O padrão pode resultar em muitas classes pequenas e semelhantes, o que pode aumentar a complexidade e o consumo de memória.
+Remoção de Wrapper: É difícil remover um decorador específico de uma pilha de componentes, pois ele é encapsulado.
+
+* **Ordem de Dependência:** Implementar decoradores onde o comportamento não dependa da ordem na pilha pode ser complicado.
+
+---
+
+| Vantagens | Desvantagens |
+|-----------|--------------|
+| Alto grau de flexibilidade | Alta complexidade do software (especialmente da interface do decorador) |
+| Expansão da função de classes sem herança | Não é adequado para iniciantes |
+| Código de programa legível | Grande número de objetos |
+| Funcionalidades otimizadas em termos de recursos | Processo de depuração difícil |
