@@ -126,4 +126,4 @@ MIMO. **Decorator: Definition, Purpose, and Examples**. Mimo. Disponível em:<ht
 
 PARTNERS, Curate. **Entendendo o padrão Decorator: aprimorando a flexibilidade no design de software**. Curate Partners. Disponível em:<https://curatepartners.com/tech-skills-tools-platforms/understanding-the-decorator-pattern-enhancing-flexibility-in-software-design/>.Acesso em: 23 mar. 2026.
 
-
+SAMPAIO, Milton. **Padrões de Projeto - Design Patterns - Decorator**. YouTube. Disponível em:<https://youtu.be/7qvKUNuq5vo?si=UT-HxdODbYyOogK_>.Acesso em: 23 mar. 2026.
