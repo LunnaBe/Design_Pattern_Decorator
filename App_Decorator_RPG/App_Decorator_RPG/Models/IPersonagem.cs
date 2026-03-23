@@ -4,6 +4,6 @@ public interface IPersonagem
 {
     string Nome { get; }
     int Ataque { get; }
-    int Defense { get; }
+    int Defesa { get; }
     string Descricao { get; }
 }

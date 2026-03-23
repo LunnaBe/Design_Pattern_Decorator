@@ -11,7 +11,7 @@ public abstract class EquipamentoDecorator : IPersonagem
     
     public virtual string Nome => _personagemDecorado.Nome;
     public virtual int Ataque => _personagemDecorado.Ataque;
-    public virtual int Defense => _personagemDecorado.Defense;
+    public virtual int Defesa => _personagemDecorado.Defesa;
     public virtual string Descricao => _personagemDecorado.Descricao;
     
 }

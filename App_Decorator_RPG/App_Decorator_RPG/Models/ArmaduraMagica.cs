@@ -3,6 +3,6 @@
 public class ArmaduraMagica : EquipamentoDecorator
 {
     public ArmaduraMagica(IPersonagem p) : base(p) { }
-    public override int Ataque => _personagemDecorado.Ataque * 40;
-    public override string Descricao => _personagemDecorado.Descricao + "Defesa de Armadura Magica";
+    public override int Defesa => _personagemDecorado.Defesa * 4;
+    public override string Descricao => _personagemDecorado.Descricao + "\n Ativar Defesa de Armadura Magica";
 }

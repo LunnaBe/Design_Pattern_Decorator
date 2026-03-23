@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "O9W6UGD/oVw=",
+  "dgSpecHash": "ZZjt5KLUiqo=",
   "success": true,
   "projectFilePath": "C:\\Users\\midor\\RiderProjects\\Design_Pattern_Decorator\\App_Decorator_RPG\\App_Decorator_RPG\\App_Decorator_RPG.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\midor\\.nuget\\packages\\controlzex\\7.0.2\\controlzex.7.0.2.nupkg.sha512",
+    "C:\\Users\\midor\\.nuget\\packages\\mahapps.metro\\3.0.0-rc0529\\mahapps.metro.3.0.0-rc0529.nupkg.sha512",
+    "C:\\Users\\midor\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.135\\microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512",
+    "C:\\Users\\midor\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
+    "C:\\Users\\midor\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
