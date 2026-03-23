@@ -5,7 +5,7 @@
 **Curso:** Desenvolvimento de Sistemas <br>
 **Instrutor:** Frederico Martins Aguiar 
 
-## O que é Design Patterns?
+## O que é Design Patterns? --
 Design Patterns(Padrões de Projeto) são descrições ou modelos que ajudam a resolver um problema específico, em múltiplas situações. Com o objetivo de fornecer um vocabulário comum para a equipe de desenvolvimento e acelerar o processo, evitando que se perca tempo com problemas já solucionados.
 
 Ele possui cinco princípios de design do padrão **SOLID** para a programação orientada a objetos. Entre eles estão:
@@ -20,12 +20,12 @@ Ele possui cinco princípios de design do padrão **SOLID** para a programação
 
 * **D** - Dependency Inversion Principle (Princípio da Inversão de Dependência): Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações.
 
-## O que é Decorator?
+## O que é Decorator? --
 Decorator é um padrão de projeto estrutural que permite associar novos comportamentos a objetos, colocando esses objetos dentro de objetos encapsulados especiais que contêm os comportamentos, ele permite envolver uma função, método ou classe com comportamentos extras sem modificar seu código original.
 
 Funciona como um wrapper que envolve o objeto ou função original, permitindo executar ações antes ou depois de sua execução, dessa maneira aprimora e estende a funcionalidade de forma limpa e reutilizável.
 
-## Estrutura do Decorator?
+## Estrutura do Decorator --
 ### Figura 1 - Representação do padrão Decorator em um Diagrama UML
 
 <img width="700" height="875" alt="Gemini_Generated_Image_vx5yh8vx5yh8vx5y" src="https://github.com/user-attachments/assets/441a8459-a713-40a7-9372-5fe87b269c08" />
@@ -39,3 +39,11 @@ Funciona como um wrapper que envolve o objeto ou função original, permitindo e
 * **Equipment (O Decorator Abstrato)** — Uma capa mágica invisível que tem exatamente o mesmo formato do personagem(ICharacter) e contém um personagem (+decoratedCharacter). Ela tem um ícone misto de espada e escudo, indicando que seu propósito é modificar esses atributos. Ela não adiciona comportamento sozinha, mas define a estrutura para os decoradores concretos.
 
 * **FireSword e MagicArmor (Os Decoratores Concretos)** — Eles são os equipamentos que aplicam os decoradores. Eles estendem Equipment e têm ícones específicos, uma FireSword (Espada de Fogo) que fica no lugar do atacar(), que ao invés de apenas realizar um ataque básico, ela também realiza um ataque extra de fogo e uma MagicArmor (Armadura Mágica), que fica no lugar do defender(), que quando realiza o bloqueio básico ele ativa uma barreira mágica de defesa que aumenta a resistência.
+  
+## Resolução de Problemas --
+* **Explosão de subclasses:** Evita a criação de dezenas de classes para combinar funcionalidades diferentes.
+
+* **Código Repetitivo:** Centraliza códigos de infraestrutura que se repetem em várias funções, como logs, validações, autenticação ou controle de tempo de execução.
+
+* **Modificação de código legado:** Permite adicionar comportamentos a funções ou métodos existentes sem a necessidade de modificar o código-fonte original, o que é ideal para manter a estabilidade do sistema.
+
