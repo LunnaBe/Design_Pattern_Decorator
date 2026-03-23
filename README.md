@@ -61,3 +61,12 @@ Inicialmente me interessei por esse padrão, porque o nome me chamou a atenção
 
 ## Implementação do Decorator no Projeto --
 O Decorator permite adicionar novas funcionalidades, comportamentos ou responsabilidades a um objeto individualmente, em tempo de execução, sem afetar o comportamento de outros objetos da mesma classe.
+
+## Comparação --
+* **Decorator vs Herança:** O Decorator é mais flexível (composição), pois permite adicionar/remover funcionalidades em tempo de execução, enquanto a herança é estática.
+
+* **Decorator vs Proxy:** Ambos envolvem um objeto, mas o Decorator adiciona responsabilidades extras, enquanto o Proxy controla o acesso ao objeto original.
+
+* **Decorator vs Composite:** Decorators são versões simplificadas do Composite, focados em adicionar comportamento, não em agrupar.
+
+* **Decorator (Python) vs Anotações (Java):** Decorators são funções/classes executáveis em tempo de execução. Anotações são metadados que dependem de componentes externos para funcionar.
