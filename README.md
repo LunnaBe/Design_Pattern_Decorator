@@ -47,3 +47,11 @@ Funciona como um wrapper que envolve o objeto ou função original, permitindo e
 
 * **Modificação de código legado:** Permite adicionar comportamentos a funções ou métodos existentes sem a necessidade de modificar o código-fonte original, o que é ideal para manter a estabilidade do sistema.
 
+## Participantes Principais --
+* **Componente (Component/Interface):** Define a interface comum para os objetos que podem ter responsabilidades adicionadas dinamicamente.
+
+* **Componente Concreto (ConcreteComponent):** A classe original que define o comportamento básico, ao qual novas funcionalidades podem ser adicionadas.
+
+* **Decorador (BaseDecorator/Decorator):** Mantém uma referência a um objeto componente e implementa a interface do Componente. Ele repassa as chamadas de método para o objeto envolvido e pode executar ações antes ou depois.
+
+* **Decoradores Concretos (ConcreteDecorator):** Classes que estendem o Decorador e adicionam funcionalidades específicas ao componente.
