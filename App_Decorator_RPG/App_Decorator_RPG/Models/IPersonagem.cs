@@ -1,6 +1,9 @@
 ﻿namespace App_Decorator_RPG;
 
-public class IPersonagem
+public interface IPersonagem
 {
-    
+    string Nome { get; }
+    int Ataque { get; }
+    int Defense { get; }
+    string Descricao { get; }
 }
