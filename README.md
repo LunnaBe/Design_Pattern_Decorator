@@ -55,3 +55,6 @@ Funciona como um wrapper que envolve o objeto ou função original, permitindo e
 * **Decorador (BaseDecorator/Decorator):** Mantém uma referência a um objeto componente e implementa a interface do Componente. Ele repassa as chamadas de método para o objeto envolvido e pode executar ações antes ou depois.
 
 * **Decoradores Concretos (ConcreteDecorator):** Classes que estendem o Decorador e adicionam funcionalidades específicas ao componente.
+
+## Justificativa da Escolha --
+Inicialmente me interessei por esse padrão, porque o nome me chamou a atenção, pensei que se tratava de um padrão de “Decoração no sentido estético, com isso, baseando-se na pesquisa que me aprofundava, percebi que ele foge desse padrão e decidi conhecer melhor sobre esse padrão do Design Patterns.
