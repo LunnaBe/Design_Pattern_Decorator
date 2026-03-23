@@ -109,3 +109,21 @@ Remoção de Wrapper: É difícil remover um decorador específico de uma pilha 
 | Expansão da função de classes sem herança | Não é adequado para iniciantes |
 | Código de programa legível | Grande número de objetos |
 | Funcionalidades otimizadas em termos de recursos | Processo de depuração difícil |
+
+---
+
+## REFERÊNCIAS --
+
+CHAGAS,  Igor. **Design Patterns: o guia definitivo dos Padrões de Projeto**. Alura, 21 out. 2021 . Disponível em:<https://www.alura.com.br/artigos/design-patterns-introducao-padroes-projeto?srsltid=AfmBOoqD6KC-JIacdKtf7OBQ_aLb04I8dVvvIbmj6LH5vRSYTMEKZo5K>.Acesso em: 20 mar. 2026.
+
+CLÍMACO, Vinicius. **Design Pattern: Decorator**. Medium, 10 out. 2022. Disponível em:<https://climaco.medium.com/design-pattern-decorator-b0ba34ff9da5>.Acesso em: 20 mar. 2026.
+
+GORIN, Maxim. **Por que adicionar funcionalidades não deve quebrar seu código: Conheça o padrão Decorator**. Medium, 22 abril. 2025. Disponível em:<https://maxim-gorin.medium.com/why-adding-features-shouldnt-break-your-code-meet-the-decorator-pattern-3c8875d6232c>.Acesso em: 20 mar. 2026.
+
+GURU, Refactoring. **Decorator**. Refactoring.Guru. Disponível em:<https://refactoring.guru/pt-br/design-patterns/decorator>.Acesso em: 23 mar. 2026.
+
+MIMO. **Decorator: Definition, Purpose, and Examples**. Mimo. Disponível em:<https://mimo.org/glossary/programming-concepts/decorator>.Acesso em: 23 mar. 2026.
+
+PARTNERS, Curate. **Entendendo o padrão Decorator: aprimorando a flexibilidade no design de software**. Curate Partners. Disponível em:<https://curatepartners.com/tech-skills-tools-platforms/understanding-the-decorator-pattern-enhancing-flexibility-in-software-design/>.Acesso em: 23 mar. 2026.
+
+
