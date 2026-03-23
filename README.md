@@ -21,8 +21,11 @@ Ele possui cinco princípios de design do padrão **SOLID** para a programação
 * **D** - Dependency Inversion Principle (Princípio da Inversão de Dependência): Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações.
 
 ## O que é Decorator?
-Decorator é um padrão de projeto estrutural que permite associar novos comportamentos a objetos, colocando esses objetos dentro de objetos encapsulados especiais que contêm os comportamentos.
+Decorator é um padrão de projeto estrutural que permite associar novos comportamentos a objetos, colocando esses objetos dentro de objetos encapsulados especiais que contêm os comportamentos, ele permite envolver uma função, método ou classe com comportamentos extras sem modificar seu código original.
 
+Funciona como um wrapper que envolve o objeto ou função original, permitindo executar ações antes ou depois de sua execução, dessa maneira aprimora e estende a funcionalidade de forma limpa e reutilizável.
+
+## Estrutura do Decorator?
 ### Figura 1 - Representação do padrão Decorator em um Diagrama UML
 
 <img width="700" height="875" alt="Gemini_Generated_Image_vx5yh8vx5yh8vx5y" src="https://github.com/user-attachments/assets/441a8459-a713-40a7-9372-5fe87b269c08" />
