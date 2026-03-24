@@ -101,6 +101,17 @@ O Decorator permite adicionar novas funcionalidades, comportamentos ou responsab
 
 ### Fonte: Canva
 
+## Análise Crítica --
+O padrão Decorator é uma ferramenta poderosa para seguir o Princípio Aberto-Fechado (Open-Closed Principle), permitindo que funcionalidades sejam estendidas sem alterar o código original. No entanto, sua implementação exige cautela:
+
+* **Flexibilidade vs. Complexidade:** Embora ofereça maior flexibilidade que a herança por permitir mudanças em tempo de execução (runtime), ele introduz uma camada de complexidade no rastreamento do fluxo de execução.
+
+* **Gestão de Objetos:** O uso excessivo pode resultar em uma "explosão" de pequenos objetos similares, o que pode dificultar a depuração e aumentar levemente o consumo de memória.
+
+* **Curva de Aprendizado:** Não é um padrão recomendado para desenvolvedores iniciantes, pois a estrutura de "wrappers" (envelopamentos) sobrepostos exige uma compreensão sólida de interfaces e composição.
+
+* **Manutenibilidade:** A dificuldade de remover um decorador específico do meio de uma "pilha" de comportamentos é um ponto negativo relevante para sistemas que exigem alta dinamicidade na reversão de estados.
+
 ## Comparação --
 * **Decorator vs Herança:** O Decorator é mais flexível (composição), pois permite adicionar/remover funcionalidades em tempo de execução, enquanto a herança é estática.
 
