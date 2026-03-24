@@ -15,8 +15,7 @@ public class PersonagemViewModel : INotifyPropertyChanged
     public string Descricao => _personagem.Descricao;
     public int Ataque => _personagem.Ataque;
     public int Defesa => _personagem.Defesa;
-
-    // Comandos (Substituem os eventos de clique do botão)
+    
     public ICommand EquiparEspadaCommand => new RelayCommand(_ => {
         _personagem = new EspadaDeFogo(_personagem);
         NotificarMudancas();
