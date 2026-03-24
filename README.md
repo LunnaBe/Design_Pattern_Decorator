@@ -1,5 +1,7 @@
 # Design Pattern: Decorator
 
+<img width="1376" height="768" alt="Gemini_Generated_Image_bkhro9bkhro9bkhr" src="https://github.com/user-attachments/assets/4a8d99bb-d59e-472f-b6fd-e3574e5437dc" />
+
 ## Integrantes --
 **Nome:** Luna Beatriz Alves <br>
 **Curso:** Desenvolvimento de Sistemas <br>
@@ -67,6 +69,37 @@ Inicialmente me interessei por esse padrão, porque o nome me chamou a atenção
 
 ## Implementação do Decorator no Projeto --
 O Decorator permite adicionar novas funcionalidades, comportamentos ou responsabilidades a um objeto individualmente, em tempo de execução, sem afetar o comportamento de outros objetos da mesma classe.
+
+## IPersonagem:
+### Figura 3 - Representação do Código da interface IPersonagem
+
+<img width="2000" height="1414" alt="IPersonagem" src="https://github.com/user-attachments/assets/91045e39-16e8-4190-a3a6-0b43052cfc54" />
+
+### Fonte: Canva
+## Guerreiro:
+### Figura 4 - Representação do Código do Guerreiro
+
+<img width="2000" height="1414" alt="Guerreiro" src="https://github.com/user-attachments/assets/b1309b11-cd89-4430-bb8e-197a6bf1177f" />
+
+### Fonte: Canva
+## EquipamentoDecorator:
+### Figura 5 - Representação do Código do Equipamento Decorator
+
+<img width="2000" height="1414" alt="EquipamentoDecorator" src="https://github.com/user-attachments/assets/1eb463c0-3bce-4fa1-963a-bdc718aa9c45" />
+
+### Fonte: Canva
+## EspadaDeFogo:
+### Figura 6 - Representação do Código do Espada De Fogo
+
+<img width="2000" height="1414" alt="EspadaDeFogo" src="https://github.com/user-attachments/assets/eeab63fa-c55b-48e6-bd16-f5d06833afec" />
+
+### Fonte: Canva
+## ArmaduraMagica:
+### Figura 7 - Representação do Código da Armadura Mágica
+
+<img width="2000" height="1414" alt="ArmaduraMagica" src="https://github.com/user-attachments/assets/f22ad2ee-2b04-4730-89f8-c73574028f1b" />
+
+### Fonte: Canva
 
 ## Comparação --
 * **Decorator vs Herança:** O Decorator é mais flexível (composição), pois permite adicionar/remover funcionalidades em tempo de execução, enquanto a herança é estática.
