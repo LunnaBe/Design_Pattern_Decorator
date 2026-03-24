@@ -155,6 +155,17 @@ Remoção de Wrapper: É difícil remover um decorador específico de uma pilha 
 | Funcionalidades otimizadas em termos de recursos | Processo de depuração difícil |
 
 ---
+## Aplicação Real no Mercado --
+No mercado de desenvolvimento de software, o Decorator não se limita apenas a exemplos lúdicos de jogos (como o personagem com espada de fogo ). Ele é amplamente utilizado em infraestruturas de sistemas robustos:
+
+**Modelos de Uso Comum:**
+* **Sistemas Bancários e de E-commerce:** Para adicionar dinamicamente taxas, descontos ou métodos de entrega a um pedido sem criar uma classe para cada combinação possível.
+
+* **Middleware de Web APIs:** Utilizado para injetar funcionalidades transversais, como logs, autenticação, cache e validação de dados em rotas específicas sem poluir a lógica de negócio principal.
+
+* **Processamento de Streams (I/O):** É o modelo clássico do Java (ex: BufferedReader envolvendo um FileReader), onde cada classe adiciona uma funcionalidade de leitura diferente ao fluxo básico.
+
+* **Interfaces Gráficas (GUI):** Adição de barras de rolagem ou bordas a janelas de forma dinâmica, dependendo da necessidade do usuário em tempo de execução.
 
 ## REFERÊNCIAS --
 
