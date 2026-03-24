@@ -15,3 +15,4 @@ public abstract class EquipamentoDecorator : IPersonagem
     public virtual string Descricao => _personagemDecorado.Descricao;
     
 }
+

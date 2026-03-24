@@ -7,3 +7,4 @@ public interface IPersonagem
     int Defesa { get; }
     string Descricao { get; }
 }
+

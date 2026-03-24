@@ -8,3 +8,5 @@ public class Guerreiro : IPersonagem
     public string Descricao => "Um guerreiro principiante, que possue uma espada e escudo de madeira.";
     
 }
+
+
